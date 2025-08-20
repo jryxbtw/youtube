@@ -1,0 +1,134 @@
+.header{
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-bottom-color: #d7d7d7;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+  z-index: 100;
+}
+
+.left{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.center{
+  flex-grow: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.right{
+  display: flex;
+  align-items: center;
+  width: 200px;
+  justify-content: space-between;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+.hamburger{
+  height: 24px;
+  margin-left: 24px;
+  cursor: pointer;
+}
+.yt-logo{
+  height: 24px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.ytl{
+  position: relative;
+}
+.search-bar{
+  flex-grow: 1;
+  height: 36px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  font-size: 16px;
+  padding-left: 10px;
+  border-radius: 2px;
+  box-shadow:inset 1px 2px 3px rgba(0,0,0,0.05);
+  width: 0;
+}
+.search-bar::placeholder{
+  color: #999;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.mic-icon{
+  height: 25px;
+  margin-top: 4px;
+  cursor: pointer;
+}
+.mic{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: none;
+  margin-left: 10px;
+  border-color: gray;
+}
+.search{
+  height: 39px;
+  width: 66px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  margin-left: -1px;
+}
+.search-icon{
+  height: 25px;
+  margin-top: 4px;
+  cursor: pointer;
+}
+.upload-icon{
+  height: 25px;
+  cursor: pointer;
+}
+.app-icon{
+  height: 25px;
+  cursor: pointer;
+}
+.noti-icon{
+  height: 25px;
+  cursor: pointer;
+  margin-top: 2px;
+}
+.profile-icon{
+  height: 28px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.noti-rel{
+  position: relative;
+}
+.noti-count{
+  position: absolute;
+  top: -1px;
+  right: -4px;
+  background-color: rgb(204, 2, 2);
+  color: white;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  border-radius: 50%;
+}
